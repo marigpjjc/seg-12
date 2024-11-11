@@ -1,0 +1,144 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e5a5ff; 
+}
+
+header {
+    background-color: #6a1b9a; 
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-bottom: 4px solid #fff; 
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.8em; 
+    font-weight: 700;
+    letter-spacing: 2px; 
+}
+
+main {
+    margin: 40px auto;
+    max-width: 650px;
+    background-color: #ffffff;
+    border-radius: 15px; 
+    padding: 35px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+main:hover {
+    transform: scale(1.02); 
+}
+
+.form-section {
+    margin-bottom: 35px;
+}
+
+form label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+    color: #444;
+    font-size: 1.1em;
+}
+
+form input {
+    width: 96%;
+    padding: 14px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    margin-top: 10px;
+}
+
+form input:focus {
+    border-color: #6a1b9a;
+    outline: none;
+    box-shadow: 0 0 10px rgba(106, 27, 154, 0.2);
+}
+
+button {
+    background-color: #6a1b9a;
+    color: white;
+    border: none;
+    padding: 14px 25px;
+    cursor: pointer;
+    border-radius: 30px; 
+    font-size: 1.2em;
+    transition: background-color 0.3s, transform 0.3s ease-in-out;
+    margin-top: 25px;
+}
+
+button:hover {
+    background-color: #4a148c;
+    transform: translateY(-3px); 
+}
+
+.contacts-section h2 {
+    margin-top: 0;
+    font-size: 2.2em;
+    color: #444;
+    font-weight: 700;
+    border-bottom: 3px solid #6a1b9a;
+    padding-bottom: 12px;
+}
+
+.contact-card {
+    background: #ffffff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-4px);
+}
+
+.contact-details {
+    flex-grow: 1;
+    color: #555;
+    font-size: 1.1em;
+}
+
+.contact-actions button {
+    margin-left: 12px;
+    background-color: #e53935;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.contact-actions button.edit {
+    background-color: #0288d1;
+}
+
+.contact-actions button:hover {
+    background-color: #c62828;
+}
+
+.contact-actions button.edit:hover {
+    background-color: #0277bd;
+}
+
+.no-contacts {
+    text-align: center;
+    color: #bbb;
+    font-style: italic;
+    font-size: 1.2em;
+    margin-top: 25px;
+}
